@@ -1,0 +1,21 @@
+body {
+    font-family: Quicksand, Sans-Serif;
+}
+
+.title {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+nav a {
+    border: solid 1px;
+    border-radius: 30px;
+    padding: 10px;
+    transition: all 0.3 ease-in-out;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
